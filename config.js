@@ -42,16 +42,16 @@ export default {
       dlVIP: `WhatsApp cannot send files larger than ${formatSize(limit.download.VIP)}`
    },
 
-   options: {
-      public: true,
-      URI: "database.json", // use mongo or file json
-      owner: ["6288292024190", "62858156631709"],
-      pathCommand: 'commands'
-   },
+       options: {
+        public: true,
+        URI: "database.json", // use mongo or file
+        owner: ["94750707940"], // ← උඹේ අනිත් WhatsApp number එක
+        pathCommand: 'commands'
+    },
 
    Exif: {
       packId: "https://instagram.com/cak_haho",
-      packName: `Sticker ini Dibuat Oleh :`,
+      packName: `Bee Queen Sticker`,
       packPublish: "Dika Ardnt.",
       packEmail: "dika.ardianta7@yahoo.com",
       packWebsite: "https://instgaram.com/cak_haho",
@@ -63,7 +63,7 @@ export default {
 
    session: {
       Path: "session",
-      Name: "hisoka"
+      Name: "beequeen"
    }
 }
 
